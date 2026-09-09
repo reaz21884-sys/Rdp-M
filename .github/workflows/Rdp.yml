@@ -72,7 +72,7 @@ jobs:
         Write-Output "3. Use credentials above when prompted"
         Write-Output "=========================================="
         Write-Output "Note: This VM will self-destruct after 6 hours"
-        Write-Output "=========================================="
+        Write-Output "========================================="
 
         # Keep alive
         while ($true) { Start-Sleep -Seconds 300 }
